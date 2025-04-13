@@ -6,7 +6,8 @@ After: a video with audio in many languages with transcript in one desired langu
 
 This "program" will also translate other languages to the target one (e.g., if model is large-v3-en and someone speak Russian, it will translate Russian to English and the result transcript will be in English)
 
-For macos users, edit and then run the following command:
+For macos / linux users, edit and then run the following command:
+
 0. You do NOT need to clone this repo
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 2. Open Docker Desktop -> settings -> resources -> set memory limit to 16Gb and swap to 4Gb, just to make sure it'll work. If you don't have so much memory, try with other settings but you'll probably see "killed" in the output because of [OOM](https://en.wikipedia.org/wiki/Out_of_memory)
